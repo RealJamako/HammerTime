@@ -1,7 +1,7 @@
 # HammerTime
 Ever wondered how much time you spent working on that gmod map? Well now you can HammerTime will keep a hold of your current and previous time spent working on your projects!
 <p align="center">
-    <image src="img/hammertime-readme.png">
+    <image src="img/hammetime-cropped.png">
 </p>
 
 ## Features
