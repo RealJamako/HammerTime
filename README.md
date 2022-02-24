@@ -1,5 +1,6 @@
 # HammerTime
 Ever wondered how much time you spent working on that gmod map? Well now you can HammerTime will keep a hold of your current and previous time spent working on your projects!
+![HammerTime UI Image](img/hammertime-readme.png)
 
 ## Features
 - Track current project time
