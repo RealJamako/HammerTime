@@ -10,7 +10,7 @@ Ever wondered how much time you spent working on that gmod map? Well now you can
 - Doubles as a hammer.exe launcher (Optional)
 
 ## Getting Started
-- Download the latest release : 
+- Grab the latest release : https://github.com/RealJamako/HammerTime/releases
 - Unpack the .zip
 - Open the now unpacked folder
 - If you choice to open hammer using **HammerTime** place the .exe in the directory your hammer.exe is located otherwise you may place **HammerTime** wether you like
