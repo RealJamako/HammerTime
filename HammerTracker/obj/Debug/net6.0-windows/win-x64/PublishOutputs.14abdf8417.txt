@@ -1,0 +1,2 @@
+D:\Dev Source\HammerTracker\HammerTracker\bin\SingleExe\HammerTime.pdb
+D:\Dev Source\HammerTracker\HammerTracker\bin\SingleExe\HammerTime.exe

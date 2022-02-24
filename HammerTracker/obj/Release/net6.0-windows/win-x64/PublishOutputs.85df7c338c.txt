@@ -1,0 +1,2 @@
+D:\Dev Source\HammerTracker\HammerTracker\bin\Release\net6.0-windows\win-x64\publish\HammerTime.pdb
+D:\Dev Source\HammerTracker\HammerTracker\bin\Release\net6.0-windows\win-x64\publish\HammerTime.exe

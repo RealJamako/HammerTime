@@ -1,0 +1,7 @@
+D:\Dev Source\HammerTracker\HammerTracker\bin\SingleExe Test\HammerTime.pdb
+D:\Dev Source\HammerTracker\HammerTracker\bin\SingleExe Test\D3DCompiler_47_cor3.dll
+D:\Dev Source\HammerTracker\HammerTracker\bin\SingleExe Test\PenImc_cor3.dll
+D:\Dev Source\HammerTracker\HammerTracker\bin\SingleExe Test\PresentationNative_cor3.dll
+D:\Dev Source\HammerTracker\HammerTracker\bin\SingleExe Test\vcruntime140_cor3.dll
+D:\Dev Source\HammerTracker\HammerTracker\bin\SingleExe Test\wpfgfx_cor3.dll
+D:\Dev Source\HammerTracker\HammerTracker\bin\SingleExe Test\HammerTime.exe
