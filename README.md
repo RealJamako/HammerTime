@@ -19,8 +19,7 @@ Ever wondered how much time you spent working on that gmod map? Well now you can
 ## Support
 Found a issue? or have a suggestion?
 - Leave them in the steam discussion page here : 
-OR
-- Open an issue
+- Alternatively you can open an issue
 
 ## License
 ``` 
