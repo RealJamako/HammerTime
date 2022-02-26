@@ -18,7 +18,7 @@ Ever wondered how much time you spent working on that gmod map? Well now you can
 
 ## Support
 Found a issue? or have a suggestion?
-- Leave them in the steam discussion page here : 
+- Leave them in the steam discussion page here : https://steamcommunity.com/sharedfiles/filedetails/?id=2766238773
 - Alternatively you can open an issue
 
 ## License
