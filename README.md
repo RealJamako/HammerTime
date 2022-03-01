@@ -15,6 +15,7 @@ Ever wondered how much time you spent working on that gmod map? Well now you can
 - Open the now unpacked folder
 - If you choice to open hammer using **HammerTime** place the HammeTime.exe in the same directory as your hammer.exe otherwise you may place **HammerTime** wether you like
 - Open **HammerTime.exe** and your set!
+- .NET 6 SDK is required if not already installed [Download them here](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.200-windows-x64-installer)
 
 ## Support
 Found a issue? or have a suggestion?
