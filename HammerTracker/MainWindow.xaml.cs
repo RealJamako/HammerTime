@@ -18,8 +18,8 @@ namespace HammerTracker
         #endregion
 
         #region Hammer Tracker : Stopwatch & Timer
-        private Stopwatch stopwatch;
-        private System.Timers.Timer timer;
+        private readonly Stopwatch stopwatch;
+        private readonly System.Timers.Timer timer;
         #endregion
 
         [DllImport("Shell32.dll")]
@@ -93,14 +93,18 @@ namespace HammerTracker
         private static void OpenHammer()
         { 
             var Directory = Environment.CurrentDirectory;
-            var FileName = "hammer.exe";
-            var path = Path.Combine(Directory, FileName);   
-            if (File.Exists(path))
+            var FileNameH = "hammer.exe";
+            var FileNameHPP = "hammerplusplus.exe";
+            var pathH = Path.Combine(Directory, FileNameH);
+            var pathHPP = Path.Combine(Directory, FileNameHPP);
+            if (File.Exists(pathHPP))
             {
-                ShellExecute(FileName, Directory);
+                ShellExecute(FileNameHPP, Directory);
             }
-            else
-                return;
+            else if (!File.Exists(pathHPP))
+            {
+                ShellExecute(FileNameH, Directory);
+            }
         }
 
         private void Window_Closed(object sender, EventArgs e)

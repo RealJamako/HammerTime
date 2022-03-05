@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 public class HammerTrackerClass
 {
-    private string filename = "HammerTracker - Past Sessions.txt";
+    private readonly string filename = "HammerTracker - Past Sessions.txt";
     public string SessionLasted = string.Empty;
     private bool isRunning = false;
 
@@ -13,7 +13,7 @@ public class HammerTrackerClass
     {
         foreach (Process process in Process.GetProcesses())
         {
-            if (process.ProcessName == "hammer")
+            if (process.ProcessName == "hammer" || process.ProcessName == "hammerplusplus")
             {
                 return true;
             }
@@ -25,15 +25,12 @@ public class HammerTrackerClass
     {
         while (true)
         {
-            Debug.WriteLine($"Hammer is : {HammerOpen()}");
-            Debug.WriteLine($"Session time is : {SessionLasted}");
-            var delaytask = Task.Delay(10000); // await 10s before pinging again
+            var delaytask = Task.Delay(10000);
             if (HammerOpen() == true)
             {
                 if (!isRunning)
                 {
                     isRunning = true;
-                    Debug.WriteLine("triggered once");
                     sw.Start();
                     tm.Start();
                 }
@@ -44,7 +41,6 @@ public class HammerTrackerClass
                 {
                     sw.Stop();
                     sw.Reset();
-                    Debug.WriteLine("triggered");
                     PrintSessionTime();
                     isRunning = false;
                 }
@@ -60,7 +56,7 @@ public class HammerTrackerClass
         var dir = Environment.CurrentDirectory;
         var FilePath = $"{dir}/{filename}";
 
-        if (System.IO.File.Exists(FilePath) == true)
+        if (File.Exists(FilePath) == true)
         {
             return;
         }
