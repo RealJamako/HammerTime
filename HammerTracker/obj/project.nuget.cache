@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "VyM6YrDcb5ouQUH5JFsQVH6ozv+aJizXKCERmQ+0NsbzfKXeZ6Bh8T7iEz4g70YJXkFPTqCuFf645ZtU3WRVHQ==",
+  "dgSpecHash": "F4j9S0TXjkCi8Zf6jogFZl4oj1i8fgZZFcap9A0WyWpKAwjOiVmPmbsIpfvk4oZsnp4Vta00QQ+cmg1AIH8m7Q==",
   "success": true,
   "projectFilePath": "D:\\Dev Source\\HammerTracker\\HammerTracker\\HammerTime.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.2\\microsoft.netcore.app.runtime.win-x64.6.0.2.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.2\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.2.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.2\\microsoft.aspnetcore.app.runtime.win-x64.6.0.2.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.3\\microsoft.netcore.app.runtime.win-x64.6.0.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.3\\microsoft.aspnetcore.app.runtime.win-x64.6.0.3.nupkg.sha512"
   ],
   "logs": []
 }

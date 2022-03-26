@@ -7,7 +7,7 @@ public class HammerTrackerClass
 {
     private readonly string filename = "HammerTracker - Past Sessions.txt";
     public string SessionLasted = string.Empty;
-    private bool isRunning = false;
+    private static bool hasOpened;
 
     private static bool HammerOpen()
     {
@@ -26,26 +26,21 @@ public class HammerTrackerClass
         while (true)
         {
             var delaytask = Task.Delay(10000);
-            if (HammerOpen() == true)
+            if (HammerOpen())
             {
-                if (!isRunning)
-                {
-                    isRunning = true;
-                    sw.Start();
-                    tm.Start();
-                }
+                sw.Start();
+                tm.Start();
+                hasOpened = true;
             }
-            else if (HammerOpen() == false)
+            else if (!HammerOpen())
             {
-                if (isRunning)
-                {
-                    sw.Stop();
-                    sw.Reset();
-                    PrintSessionTime();
-                    isRunning = false;
-                }
-                //if hammer is closed
                 sw.Stop();
+                sw.Reset();
+                if (hasOpened)
+                {
+                    PrintSessionTime();
+                    hasOpened = !hasOpened;
+                }
             }
             await delaytask;
         }
@@ -86,9 +81,6 @@ public class HammerTrackerClass
         string timestamp = DateTime.Now.ToString();
         string content = $"{timestamp} : You spent {SessionLasted} working on your project!";
 
-        if (HammerOpen() == true)
-            File.AppendAllText(Path.Combine(Environment.CurrentDirectory, filename), content + Environment.NewLine);
-        else
-            return;
+        File.AppendAllText(Path.Combine(Environment.CurrentDirectory, filename), content + Environment.NewLine);
     }
 }

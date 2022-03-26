@@ -269,7 +269,6 @@ D:\Dev Source\HammerTracker\HammerTracker\bin\Debug\net6.0-windows\win-x64\dbgsh
 D:\Dev Source\HammerTracker\HammerTracker\bin\Debug\net6.0-windows\win-x64\hostfxr.dll
 D:\Dev Source\HammerTracker\HammerTracker\bin\Debug\net6.0-windows\win-x64\hostpolicy.dll
 D:\Dev Source\HammerTracker\HammerTracker\bin\Debug\net6.0-windows\win-x64\mscordaccore.dll
-D:\Dev Source\HammerTracker\HammerTracker\bin\Debug\net6.0-windows\win-x64\mscordaccore_amd64_amd64_6.0.222.6406.dll
 D:\Dev Source\HammerTracker\HammerTracker\bin\Debug\net6.0-windows\win-x64\mscordbi.dll
 D:\Dev Source\HammerTracker\HammerTracker\bin\Debug\net6.0-windows\win-x64\mscorrc.dll
 D:\Dev Source\HammerTracker\HammerTracker\bin\Debug\net6.0-windows\win-x64\msquic.dll
@@ -518,3 +517,5 @@ D:\Dev Source\HammerTracker\HammerTracker\obj\Debug\net6.0-windows\win-x64\refin
 D:\Dev Source\HammerTracker\HammerTracker\obj\Debug\net6.0-windows\win-x64\HammerTime.pdb
 D:\Dev Source\HammerTracker\HammerTracker\obj\Debug\net6.0-windows\win-x64\HammerTime.genruntimeconfig.cache
 D:\Dev Source\HammerTracker\HammerTracker\obj\Debug\net6.0-windows\win-x64\ref\HammerTime.dll
+D:\Dev Source\HammerTracker\HammerTracker\bin\Debug\net6.0-windows\win-x64\api-ms-win-core-fibers-l1-1-0.dll
+D:\Dev Source\HammerTracker\HammerTracker\bin\Debug\net6.0-windows\win-x64\mscordaccore_amd64_amd64_6.0.322.12309.dll
